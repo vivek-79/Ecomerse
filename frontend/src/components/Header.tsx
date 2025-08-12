@@ -6,9 +6,9 @@ import { RiArrowDropDownLine } from 'react-icons/ri'
 import { RxPerson } from 'react-icons/rx'
 import { SlLocationPin } from 'react-icons/sl'
 
-type Props = {}
 
-const Header = (props: Props) => {
+const Header = () => {
+  
   return (
     <header className='w-full h-[58px]  mt-7 mx-auto flex-roww justify-between'>
       <Image src="/images/logo.png" width={180} height={55} alt='logo'/>

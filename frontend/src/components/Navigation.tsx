@@ -1,13 +1,11 @@
 import { navList } from '@/app/data/navList'
-import { Span } from 'next/dist/trace'
 import React from 'react'
 import { HiOutlineViewGrid } from 'react-icons/hi'
 import { RiArrowDropDownLine } from 'react-icons/ri'
 import { TfiHeadphoneAlt } from 'react-icons/tfi'
 
-type Props = {}
 
-const Navigation = (props: Props) => {
+const Navigation = () => {
 return (
     <nav className='my-4 border-y-1 border-light-gray py-2 flex-roww justify-between'>
 
@@ -43,4 +41,4 @@ return (
 )
 }
 
-export default Navigation
+export default Navigation;

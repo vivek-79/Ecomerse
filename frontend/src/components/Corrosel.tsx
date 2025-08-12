@@ -3,9 +3,9 @@
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
-type Props = {}
 
-const Corrosel = (props: Props) => {
+
+const Corrosel = () => {
 
     const totalSlides = 4;
     const [current, setCurrent] = useState<number>(0);
